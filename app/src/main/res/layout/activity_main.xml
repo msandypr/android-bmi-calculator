@@ -29,15 +29,15 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:id="@+id/male">
-        
+
         <ImageView
             android:layout_width="170px"
             android:layout_height="170px"
             android:layout_above="@+id/textmale"
+            android:layout_centerInParent="true"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_centerInParent="true">
-            
+            android:src="@drawable/bg_icon_male">
+
         </ImageView>
         
         <TextView
@@ -71,9 +71,9 @@
             android:layout_width="170px"
             android:layout_height="170px"
             android:layout_above="@+id/textfemale"
+            android:layout_centerInParent="true"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_centerInParent="true">
+            android:src="@drawable/bg_icon_female">
 
         </ImageView>
 
@@ -206,7 +206,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/bg_icon_minus"
                 android:id="@+id/decrementweight">
 
             </ImageView>
@@ -225,7 +225,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/bg_icon_plus"
                 android:id="@+id/incrementweight">
 
             </ImageView>
@@ -283,7 +283,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/bg_icon_minus"
                 android:id="@+id/decrementage">
 
             </ImageView>
@@ -302,7 +302,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/bg_icon_plus"
                 android:id="@+id/incrementage">
 
             </ImageView>
